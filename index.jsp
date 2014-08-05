@@ -32,8 +32,14 @@
     color: #666666;
     text-decoration: none;
 }
+.header:hover {
+background-color:blue;
+}
 .img {
 margin-top:-100px;
+}
+.img:hover {
+opacity: 0.5; filter: alpha(opacity=30);
 }
 
 </style>
