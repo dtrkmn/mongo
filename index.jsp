@@ -47,6 +47,16 @@ opacity: 0.5; filter: alpha(opacity=30);
 <body style="background-color:pink;">
 
 <div class="header"><strong>&nbsp;About Book</strong></div>
+<div>
+<h3>Epub Upload:</h3>
+Select an epub file to upload: <br />
+<form action="upload" method="post"
+                        enctype="multipart/form-data">
+<input type="file" name="file" size="50" />
+<br />
+<input type="submit" value="Upload File" />
+</form>
+</div>
 
 <%
 	Mongo mg = new Mongo("localhost", 27017);
